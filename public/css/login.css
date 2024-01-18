@@ -1,0 +1,27 @@
+:root {
+    --bc-color: #1979c2;
+    --bc1-color: #3a423a;
+    --text-color: #ffffff;
+    --text1-color: black;
+    --button1-color: #fec601;
+  }
+
+.login-card{
+    display: flex;
+}
+.card-header{
+    background-color: var(--bc-color);
+    color: var(--text-color);
+}
+.card-body{
+    background-color: rgb(236, 236, 235);
+    
+}
+.reg-link{
+    display: flex;
+    gap: 1rem;
+}
+.reg-link-tx{
+   
+    text-decoration: none;
+}
